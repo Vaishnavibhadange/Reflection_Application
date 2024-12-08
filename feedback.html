@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Feedback</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+  <div id="feedback-app">
+    <h2>Request you to share your feedback for <span id="feedback-name"></span>.</h2>
+    
+    <form id="feedback-form">
+      <div class="section">
+        <h3>Positive Emotions</h3>
+        <label><input type="checkbox" name="positive" value="Adaptive"> Adaptive</label><br>
+        <label><input type="checkbox" name="positive" value="Flexible"> Flexible</label><br>
+        <label><input type="checkbox" name="positive" value="Team Player"> Team Player</label><br>
+        <label><input type="checkbox" name="positive" value="Honest"> Honest</label><br>
+        <label><input type="checkbox" name="positive" value="Punctual"> Punctual</label>
+      </div>
+      
+      <div class="section">
+        <h3>Improvement Area</h3>
+        <label><input type="checkbox" name="improvement" value="Arrogant"> Arrogant</label><br>
+        <label><input type="checkbox" name="improvement" value="Lack of initiative"> Lack of initiative</label><br>
+        <label><input type="checkbox" name="improvement" value="Lazy"> Lazy</label><br>
+        <label><input type="checkbox" name="improvement" value="Aggressive"> Aggressive</label><br>
+        <label><input type="checkbox" name="improvement" value="Poor Communication"> Poor Communication</label>
+      </div>
+      
+      <div class="section">
+        <h3>Positive Feedback</h3>
+        <textarea id="positive-feedback" rows="3"></textarea>
+      </div>
+      
+      <div class="section">
+        <h3>Improvement Feedback</h3>
+        <textarea id="improvement-feedback" rows="3"></textarea>
+      </div>
+      
+      <button type="submit">Submit</button>
+      <p id="error-message" style="color: red; display: none;">Select at least one option to submit.</p>
+    </form>
+  </div>
+  <script src="feedback.js"></script>
+</body>
+</html>

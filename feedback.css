@@ -1,0 +1,63 @@
+/* feedback app  */
+
+#feedback-app {
+    width: 90%;
+    max-width: 600px;
+    height: 100%;
+    max-width: 100;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  #feedback-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .section {
+    margin: 15px 0;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  label {
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  input[type="checkbox"] {
+    width: 30%;
+  }
