@@ -30,5 +30,5 @@ Data Storage: LocalStorage
 ![Screenshot (10)](https://github.com/user-attachments/assets/efa7d3d9-a8c0-480a-9258-95142ab62a3b)
 All feedbacks will be stored in local storage.
 
-# If user click on Open button, all feedbacks will be sown on Dashboard
+# If user click on Open button, all feedbacks will be shown on Dashboard
 ![Screenshot (7)](https://github.com/user-attachments/assets/c26bca23-be02-4af0-8e58-a2109f5e58e1)
